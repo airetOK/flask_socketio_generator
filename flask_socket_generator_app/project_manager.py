@@ -1,4 +1,4 @@
-from app.project_builder import ProjectBuilder
+from flask_socket_generator_app.project_builder import ProjectBuilder
 
 
 class ProjectManager:
