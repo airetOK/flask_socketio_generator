@@ -10,7 +10,7 @@ With Flask-SocketIO-Generator, you can quickly bootstrap a Flask application wit
 - Sets up a .gitignore for ignoring common unnecessary files.
 - Adds a Socket.IO client to the HTML for seamless communication with the server.
 
-## HOT TO INSTALL AND RUN
+## HOW TO INSTALL AND RUN
 **pip install flask_socketio_generator**  
 Run command **flask_socketio_generate**
 
@@ -19,7 +19,7 @@ Run command **flask_socketio_generate**
 - create virtual environment **python -m venv venv**
 - activate venv **cd venv/Scripts**, from Scripts folder execute **activate**
 - from the project's root execute **pip install -r requirements.txt**
-- from the project's root execute **python -m app.main**
+- from the project's root execute **python -m flask_socket_generator_app.main**
 
 ## USAGE
 The command **python -m api.main** will ask you to enter project name, include docker support and add .gitignore.
@@ -53,4 +53,6 @@ example-project
 Once the project was generated execute **docker-compose up** from your project's root. You can access the Flask application on *localhost:5000*.
 
 ## Contributing
-If you'd like to contribute to Flask-SocketIO-Generator, feel free to fork the repository, submit issues, or create pull requests. Contributions are always welcome!
+If you'd like to contribute to Flask-SocketIO-Generator, feel free to fork the repository, submit issues, or create pull requests. 
+The repository url: https://github.com/airetOK/flask_socketio_generator
+Contributions are always welcome, I'll be happy to improve the lib with you!

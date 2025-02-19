@@ -14,4 +14,4 @@ readme = "README.MD"
 packages = {find = {exclude = ["tests"]}}
 
 [project.scripts]
-flask_socketio_generate = "app.main:main"
+flask_socketio_generate = "flask_socket_generator_app.main:main"

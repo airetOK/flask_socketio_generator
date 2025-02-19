@@ -7,7 +7,7 @@ from templates.docker_file import template as dockerfile_template
 from templates.docker_compose import template as docker_compose_template
 from templates.gitignore import template as gitignore_template
 from templates.readme import template as readme_template
-import app.versions as versions
+import flask_socket_generator_app.versions as versions
 
 
 class ProjectBuilder:
