@@ -1,0 +1,4 @@
+build==1.2.2
+pre-commit==4.1.0
+pytest==8.0.2
+twine==6.1.0

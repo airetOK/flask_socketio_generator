@@ -1,0 +1,6 @@
+docker_base_image = "python:3.9.12-slim"
+gevent = "21.8.0"
+gunicorn = "21.2.0"
+flask = "3.1.0"
+flask_socketio = "5.5.0"
+pytest = "8.0.2"

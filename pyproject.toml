@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flask_socketio_generator"
+version = "0.1.1"
+description = "The lib generates the template for Flask app with SoketIO configuration."
+authors = [{name = "Serhiy Bezrukaviy", email = "sergey.bezrukavyy@gmail.com"}]
+readme = "README.MD"
+
+# The tool.setuptools section for proper package discovery
+[tool.setuptools]
+packages = {find = {exclude = ["tests"]}}
+
+[project.scripts]
+flask_socketio_generate = "app.main:main"
