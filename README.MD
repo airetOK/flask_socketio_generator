@@ -11,7 +11,7 @@ With Flask-SocketIO-Generator, you can quickly bootstrap a Flask application wit
 - Adds a Socket.IO client to the HTML for seamless communication with the server.
 
 ## HOT TO INSTALL AND RUN
-**pip install flask_socketio_generator**
+**pip install flask_socketio_generator**  
 Run command **flask_socketio_generate**
 
 ## HOW TO RUN LOCALLY:
@@ -26,29 +26,30 @@ The command **python -m api.main** will ask you to enter project name, include d
 Once you finished with that, the will create the Flask SocketIO the following project's structure:
 
 example-project
-|
-|---app
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py
-|
-|---static
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   css
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   img
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   js
-|
-|---templates
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   index.html
-|
-|---tests
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   app
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py
-|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py
-|
-|---   .gitignore
-|---   docker-compose.yaml
-|---   Dockerfile
-|---   main.py
-|---   README.MD
-|---   requirements.txt
+|  
+|---app  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py  
+|  
+|---static  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   css  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   img  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   js  
+|  
+|---templates  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   index.html  
+|  
+|---tests  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   app  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py  
+|&nbsp;&nbsp;&nbsp;&nbsp;|  ---   \_\_init\_\_.py  
+|  
+|---   .gitignore  
+|---   docker-compose.yaml  
+|---   Dockerfile  
+|---   main.py  
+|---   README.MD  
+|---   requirements.txt  
+
 Once the project was generated execute **docker-compose up** from your project's root. You can access the Flask application on *localhost:5000*.
 
 ## Contributing
