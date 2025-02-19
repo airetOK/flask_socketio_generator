@@ -1,5 +1,5 @@
-from app.project_manager import ProjectManager
-from app.project_builder import ProjectBuilder
+from flask_socket_generator_app.project_manager import ProjectManager
+from flask_socket_generator_app.project_builder import ProjectBuilder
 
 builder = ProjectBuilder()
 project_manager = ProjectManager(builder)
