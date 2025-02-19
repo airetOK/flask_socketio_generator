@@ -15,7 +15,7 @@ With Flask-SocketIO-Generator, you can quickly bootstrap a Flask application wit
 Run command **flask_socketio_generate**
 
 ## HOW TO RUN LOCALLY:
-- **git clone**
+- **git clone https://github.com/airetOK/flask_socketio_generator.git**
 - create virtual environment **python -m venv venv**
 - activate venv **cd venv/Scripts**, from Scripts folder execute **activate**
 - from the project's root execute **pip install -r requirements.txt**
