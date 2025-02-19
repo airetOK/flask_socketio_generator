@@ -11,6 +11,7 @@ With Flask-SocketIO-Generator, you can quickly bootstrap a Flask application wit
 - Adds a Socket.IO client to the HTML for seamless communication with the server.
 
 ## HOW TO INSTALL AND RUN
+Create virtual environment and activate it.  
 **pip install flask_socketio_generator**  
 Run command **flask_socketio_generate**
 
